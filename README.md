@@ -3,6 +3,6 @@
 
 add to routes/web.php
 ```php
-$router->post('/comments', 'CommentController@select');
-$router->post('/comment', 'CommentController@view');
+$router->get('/comments', 'CommentController@select');
+$router->get('/comment', 'CommentController@view');
 ```
